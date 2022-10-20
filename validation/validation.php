@@ -4,54 +4,6 @@
     {
         
         public $error=array();
-
-            // function UserPageValidate()
-            // {
-            //     if(isset($_SESSION['login']))
-            //     {
-            //         if($_SESSION['login']==true)
-            //         {
-            //             return true;
-            //         }
-            //         else
-            //         {
-            //             return false;
-            //         }
-            //     }
-            //     else
-            //     {
-            //         return false;
-            //     }
-            // }
-        
-        // this function is for make log in page heading dynamic like if user not found show user not found otherwise user inserted etc.
-            function userStatus( $tempSession )
-            {
-                $temp =null;
-                if(!empty($tempSession['error']['found']) && !isset($tempSession['activity']))
-                {
-                    $temp = $tempSession['error']['found'];
-                }
-        
-                elseif(!empty($tempSession['User']) && !isset($tempSession['activity']))
-                {
-                    $temp =  "User Inserted Successfully";
-                }
-        
-                elseif(isset($_GET['already']) )
-                {
-                    $temp = "Previous User";
-                }
-                elseif(isset($tempSession['activity']) )
-                {
-                    $temp = $tempSession['activity'];
-                    unset($tempSession['activity']);
-                }
-                return $temp;
-            }
-        
-        
-        // this function is for Validate if the user fill email and password or not
         
             function EmailPassValidate($email , $password)
             {
