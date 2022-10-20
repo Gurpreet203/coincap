@@ -50,7 +50,7 @@
                 {
                     echo ' <a href="user/logout.php" class="btn">Logout</a>';
                 }
-                if(isset($_SESSION['coin']))
+                if(isset($_SESSION['coin']) && isset($_SESSION['login']))
                 {
                     echo ' <a href="../user/logout.php" class="btn">Logout</a>';
                 }
