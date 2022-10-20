@@ -23,7 +23,7 @@
             <img src="https://coincap.io/static/logos/black.svg" alt="logo">
         </div>
         <div class="center-element">
-            <a href="wallet.php">Add Money</a>
+            <a href="wallet.php">Add Balance</a>
             <?php
                
                 if(isset($_SESSION['success']))
