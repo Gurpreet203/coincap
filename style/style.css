@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4.375rem;
+    padding-right: 4.375rem;
+    height: 4.0625rem;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0rem 0rem 0.3125rem 0rem rgba(0,0,0,0.4);
+}
+
+form{
+    display: inline;
+}
+.nav-icon{
+    padding-right: 6.25rem;
+}
+.nav-icon img{
+    width: 6.25rem;
+    height: 2.1875rem;
+    cursor: pointer;
+}
+
+.nav-items ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0.8125rem 1rem;
+}
+
+.nav-items ul li a{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.btn
+{
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    margin-left: 0.9375rem;
+    padding: 0.5rem 2.5rem;
+    border-radius: 3.4375rem;
+    background: rgb(24, 198, 131);
+    color: whitesmoke;
+    font-weight: bold;
+    box-shadow: 0rem 0rem 0.625rem 0rem rgba(0,0,0,0.4);
+    transition: margin-bottom 0.1s ease;
+}
+
+.home{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.nav-search input{
+   
+    padding: 0.375rem;
+    border-radius: 0.3125rem;
+    border: none;
+    width: 0;
+    outline: 0;
+    outline: none;
+    transition: width 0.4s ease-out;
+}
+.nav-search input:focus{
+    width: 11.25rem;
+    border: 0.0625rem solid black;
+}
+.hidden{
+    display: none;
+}
+
+.icon{
+    position: relative;
+    right: 7%;
+    top: 3.5%;
+    font-weight: bold;
+}
+
+.banner{
+    height: 12.5rem;
+    background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) rgb(255, 255, 255) !important;
+    display: flex;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    font-weight: 600;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.625rem;
+    position: relative;
+}
+
+.banner p span{
+    display: block;
+    font-size: 1.375rem;
+    text-align: center;
+    font-weight: 500;
+}
+.banner p{
+    padding: 0.9375rem;
+    font-size: 0.875rem;
+}
+.coin-table{
+    background-color: rgb(236, 239, 241);
+    padding: 4.375rem;
+}
+table{
+    margin-top: -192px;
+    background-color: white;
+    border-radius: 0.125rem;
+    cursor: pointer;
+    box-shadow: 0rem 0rem 0.5rem 0rem rgba(0,0,0,0.2);
+    width: 100%;
+    position: relative;
+}
+
+th{
+    color: rgb(139, 138, 138);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-bottom: 0.0625rem solid rgba(34,36,38,.1);
+    padding: 1.25rem 0.5625rem;
+}
+
+td{
+    border-bottom: 0.0625rem solid rgba(34,36,38,.1);
+    padding: 0.6875rem 0.5625rem; 
+    
+}
+tr:hover{
+    background-color: rgb(241, 241, 241);
+}
+th:hover{
+    color: black;
+}
+td{
+    text-align: right;
+    font-size: 0.875rem;
+}
+.name{
+    text-align: left;
+}
+.rank,.rank-th{
+    text-align: center;
+    padding: 0.6875rem 1.25rem;
+}
+.rank-th{
+    font-weight: 500;
+    color: black;
+}
+
+.icon
+{
+    height: 1.875rem;
+    width: 1.875rem;
+}
+.coin-name{
+    display: flex;
+
+}
+.coin-link span{
+    color: grey;
+    font-size: 0.875rem;
+}
+.coin-link a{
+    color: black;
+    text-decoration: none;
+}
+.coin-link a:hover{
+    text-decoration: underline;
+}
+.green{
+    color: rgb(24, 198, 131);
+}
+.red{
+    color: rgb(244, 67, 54);
+}
+
+footer{
+    background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) rgb(255, 255, 255) !important;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 0.875rem;
+    padding: 1.25rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    cursor: pointer;
+    align-items: stretch;
+}
+
+footer h4{
+    font-size: 0.9375rem;
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+}
+
+.disclaimer{
+    margin-top: 2.5rem;
+}
+footer p{
+    display: inline;
+    margin: 0.5rem;
+}
+.footer-third-content i{
+    font-size: 1.25rem;
+}
+
+footer ul li{
+    list-style: none;
+    line-height: 1.5625rem;
+    
+}
+
+footer div{
+    width: 100%;
+    margin: 1.25rem;
+}
+
+footer p,footer ul li,footer img,address{
+    opacity: 0.6;
+}
+footer p:hover,footer ul li:hover ,footer img:hover{
+    opacity: 1;
+}
+
+.error{
+    color: red;
+    margin-bottom: 0.3125rem;
+    margin-top: -0.625rem;
+}
+
+
+
+

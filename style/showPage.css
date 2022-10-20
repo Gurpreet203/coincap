@@ -1,0 +1,192 @@
+.banner-show{
+    height: 9.375rem;
+    padding-right: 9.375rem;
+    padding-left: 2.5rem;
+    padding-top: 1.25rem;
+    display: flex;
+    justify-content:space-between;
+    background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) rgb(255, 255, 255) !important;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.outter-rank{
+    display: flex;
+    justify-content: space-between;
+}
+.rank{
+    padding: 0;
+}
+
+.design{
+    height: 0.75rem;
+    width: 4.6875rem;
+    border-radius: 0.3125rem;
+    background-color: rgb(24, 198, 131);
+   
+}
+.banner-rank{
+    background-color: rgb(24, 198, 131);
+    border-radius: 0rem 0rem 0.9375rem 0.9375rem;
+    text-align: center;
+    height: 5.625rem;
+    width: 3.4375rem;
+    margin-top: -11.2px;
+    margin-left: 9.6px;
+}
+.banner-rank p{
+    font-size: 1.5625rem;
+    font-weight: bold;
+    padding-top: 30%;
+}
+.banner-rank span{
+    display: block;
+    margin-top: 0.625rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.asset-head{
+    font-size: 1.875rem;
+    margin-left: 3.125rem;
+}
+
+.assetPrice{
+    display: block;
+    margin-top: 6%;
+    font-size: 1.5625rem;
+}
+.assetPrice span{
+    color: rgb(24, 198, 131);
+    margin-left: 16px;
+    font-size: 1.125rem;
+    
+}
+.banner-data {
+    font-size: 0.75rem;
+}
+.banner-data span{
+    display: block;
+    font-size: 1.125rem;
+}
+.banner-data a{
+    display: block;
+    margin-top: 30%;
+    margin-left: 0;
+    padding: 0.8125rem 1.875rem;
+    text-align: center;
+}
+.green{
+    color: rgb(24, 198, 131) !important;
+}
+.red{
+    color: rgb(239, 154, 154) !important;
+}
+
+.detail-section{
+    display: flex;
+    justify-content: space-around;
+    padding-right : 25rem;
+}
+
+.assetName-right{
+    display: flex;
+}
+.assetName-right div{
+    padding: 1.25rem;
+}
+
+.assetName-right p{
+    font-weight: bold;
+   
+    margin-top: 4%;
+}
+.assetName-right p span{
+    display: block;
+    font-weight: normal;
+    color: rgba(0,0,0,.87);
+    font-size: 0.875rem;
+    margin-top: 12%;
+}
+
+.assetsAllRates{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 5rem;
+    padding: 1.25rem;
+}
+.assetsAllRates p,.assetsAllRates h3{
+    display: inline;
+}
+.assetsAllRates h3{
+    color: grey;
+    font-size: 0.9375rem;
+}
+.assetsAllRates p{
+    margin-left: 1.25rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.chartImage img{
+    width: 65vw;
+    height: 25rem;
+}
+
+.chartAndForm{
+    display: flex;
+}
+
+.sellbuy{
+    box-shadow: 0rem 0rem 0.9375rem 0rem rgba(0,0,0,0.2);
+    border-radius: 1.25rem;
+    width: 25%;
+    height: 80%;
+    padding: 1.25rem;
+    margin-top: -4rem;
+    margin-left: 1rem;
+}
+.sellbuy h1{
+    margin-bottom: 1.25rem;
+    color: rgba(0, 0, 0, 0.9);
+}
+.sellbuy label{
+    margin: 0.625rem;
+    display: block;
+    font-weight: bold;
+    color: rgb(104, 102, 102);
+}
+input::placeholder{
+    color: rgb(189, 188, 188);
+}
+.sellbuy input{
+    display: block;
+    padding: 0.625rem;
+    width: 90%;
+    border: 0.0625rem solid black;
+    border-radius: 0.625rem;
+    margin-bottom: 1.25rem;
+    outline: 0;
+}
+#proceed{
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 3.125rem;
+    background-color: rgb(24, 198, 131);
+}
+#proceed:hover{
+    opacity: 0.8;
+}
+
+.success{
+    border: 0.0625rem solid green;
+    text-align:center;
+    padding:0.625rem;
+    border-radius:0.625rem;
+    background-color: rgb(205, 250, 205);
+    margin-bottom: 0.3125rem;
+}
